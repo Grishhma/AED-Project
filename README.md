@@ -1,2 +1,2 @@
 # AED-Project
-Covid Management Systems
+Covid Management System
