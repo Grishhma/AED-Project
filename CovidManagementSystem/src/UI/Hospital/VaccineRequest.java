@@ -20,9 +20,7 @@ import javax.swing.JPanel;
  */
 public class VaccineRequest extends javax.swing.JPanel {
 
-    /**
-     * Creates new form VaccineRequest
-     */
+    
     JPanel userProcessContainer;
     EcoSystem system;
     UserAccount userAccount;
