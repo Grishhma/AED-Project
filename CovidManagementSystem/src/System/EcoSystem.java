@@ -16,7 +16,6 @@ import System.Organization.Organization;
  *
  * @author riddhivora
  */
-public class EcoSystem {
     
 public class EcoSystem extends Organization{
     
