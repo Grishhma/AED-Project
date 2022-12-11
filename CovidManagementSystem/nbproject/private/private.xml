@@ -5,6 +5,8 @@
         <group>
             <file>file:/C:/Users/ACER/AED-Project/CovidManagementSystem/src/System/DB4OUtil/DB4OUtil.java</file>
             <file>file:/C:/Users/ACER/AED-Project/CovidManagementSystem/src/System/EcoSystem.java</file>
+            <file>file:/C:/Users/ACER/AED-Project/CovidManagementSystem/src/System/Role/DoctorRole.java</file>
+            <file>file:/C:/Users/ACER/AED-Project/CovidManagementSystem/src/System/Role/PatientRole.java</file>
         </group>
     </open-files>
 </project-private>
