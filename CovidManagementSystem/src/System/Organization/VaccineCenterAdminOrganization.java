@@ -4,10 +4,24 @@
  */
 package System.Organization;
 
+import System.Role.DoctorRole;
+import System.Role.Role;
+import System.Role.VaccineCenterAdminRole;
+import java.util.ArrayList;
+
 /**
  *
  * @author infin
  */
-public class VaccineCenterAdminOrganization {
+public class VaccineCenterAdminOrganization extends Organization{
+     public VaccineCenterAdminOrganization(String name) {
+        super(Organization.Type.VaccinationCenterAdmin.getValue(), name);
+    }
     
+    @Override
+    public ArrayList<Role> getSupportedRole() {
+        ArrayList<Role> roles = new ArrayList();
+        roles.add(new VaccineCenterAdminRole());
+        return roles;
+    }
 }

@@ -25,3 +25,4 @@ public class VaccineProducerOrganization extends Organization{
         return roles;
     }
 }
+
