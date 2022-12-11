@@ -29,9 +29,7 @@ import UI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
  */
 public class ManageDoctorJPanel extends javax.swing.JPanel {
 
-    /**
-     * Creates new form ManageDoctorJPanel
-     */
+    
     JPanel userProcessContainer;
     EcoSystem system;
     UserAccount userAccount;
