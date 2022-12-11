@@ -5,7 +5,6 @@
 package System.Employee;
 
 import java.util.ArrayList;
-
 /**
  *
  * @author infin
@@ -24,11 +23,11 @@ public class EmployeeDirectory {
     
     public Employee createEmployee(String name){
         Employee employee = new Employee();
-        employee.setNameOfEmployee(name);
+        employee.setName(name);
         employeeList.add(employee);
         return employee;
     }
     public void updateEmployee(Employee employee, String name){
-        employee.setNameOfEmployee(name);
+        employee.setName(name);
     }
 }

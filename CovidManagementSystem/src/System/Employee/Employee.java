@@ -8,33 +8,34 @@ package System.Employee;
  *
  * @author infin
  */
+
 public class Employee {
     
-    private String NameOfEmployee;
-    private int IDOfEmployee;
+    private String name;
+    private int id;
     private static int count = 1;
 
     public Employee() {
-        IDOfEmployee = count;
+        id = count;
         count++;
     }
 
-    public int getIDOfEmployee() {
-        return IDOfEmployee;
+    public int getId() {
+        return id;
     }
 
-    public void setNameOfEmployee(String NameOfEmployee) {
-        this.NameOfEmployee = NameOfEmployee;
+    public void setName(String name) {
+        this.name = name;
     }
 
     
-    public String getNameOfEmployee() {
-        return NameOfEmployee;
+    public String getName() {
+        return name;
     }
 
     @Override
     public String toString() {
-        return NameOfEmployee;
+        return name;
     }
     
     
