@@ -6,7 +6,7 @@
 package System.Organization;
 
 
-import System.Role.HosEmployeeRole;
+//import System.Role.HosEmplooyeeRole;
 import System.Role.Role;
 import java.util.ArrayList;
 /**
@@ -21,7 +21,7 @@ public class HospitalEmployeeOrganization extends Organization{
     @Override
     public ArrayList<Role> getSupportedRole() {
         ArrayList<Role> roles = new ArrayList();
-        roles.add(new HosEmployeeRole());
+        //roles.add(new HosEmplooyeeRole());
         return roles;
     }
 }
