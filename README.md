@@ -1,2 +1,2 @@
 # AED-Project
-Organ Management System
+covid Management System
